@@ -1,0 +1,21 @@
+{
+  "name": "rudak/maintenance-bundle",
+  "type": "symfony-bundle",
+  "description": "Bundle permettant lasculement sur une page de maintenance",
+  "keywords": ["maintenance"],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Kadur Arnaud",
+      "email": "contact@kadur-arnaud.fr",
+      "homepage": "http://kadur-arnaud.fr"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Rudak\\MaintenanceBundle": ""
+    }
+  },
+  "target-dir": "Rudak/MaintenanceBundle",
+  "minimum-stability": "stable"
+}
