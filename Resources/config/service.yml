@@ -1,5 +1,5 @@
 services:
-    acme.listener.maintenance:
+    rudak.maintenance.listener:
         class: Rudak\MaintenanceBundle\Listener\MaintenanceListener
         arguments:
             container: "@service_container"
